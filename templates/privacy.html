@@ -1,0 +1,237 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Header -->
+    <header class="ex-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1">
+            <h1>Патенты</h1>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </header>
+    <!-- end of ex-header -->
+    <!-- end of header -->
+
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-5 pb-5">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-5.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>Способ получения дуолита</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Дуолит 1.jpg' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-6.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>
+                  Наноглина для выращивания растений на пустынных и плодородных
+                  почвах и способ ее получения.
+                </h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Патент Наноглина.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-7.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>Способ получения углещелочного реагента</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Патент УЩР.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-8.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>
+                  Активная синтезированная добавка для цемента и способ ее
+                  получения.
+                </h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Патент_2733360_Активная_синтезированная_мин_добавка_к_цементу.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-1.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>
+                  Активная минеральная добавка к цементу и способ ее
+                  приготовления.
+                </h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    target="_blank"
+                    href="{% static 'patents/patent1.pdf' %}"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-2.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>Способ получения гуминового продукта</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/patent2.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-3.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>
+                  Сырьевая смесь и способ приготовления активной минеральной
+                  добавки для цемента.
+                </h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/patent3.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-4.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>Сырьевая смесь для производства белого цемента</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Белый цемент.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-9.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>Состав минеральной ваты</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Патент_на_Минеральную_вату.jpg' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-1 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-10.jpg' %}" alt="" />
+              <div class="p-1 d-flex flex-column justify-content-between h-100">
+                <h6>Способ переработки хлопкового шрота</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Патент_Соб_переработки.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i>
+                    <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
+
+
+    <!-- Scripts -->
+ {% endblock content %}

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Header -->
+    <header class="ex-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1">
+            <h1 class="publication-description__title">
+              {{project.title}}
+            </h1>
+          </div>
+          <!-- end of col -->
+        </div>
+          <p>{{project.body}}</p>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </header>
+    <!-- end of ex-header -->
+    <!-- end of header -->
+
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-4">
+      <div class="container">
+        <div class="row">
+          <iframe
+            src="{{project.link}}"
+            width="100%"
+            height="600"
+            data-v-21257570=""
+          ></iframe>
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
+
+
+
+{% endblock content %}

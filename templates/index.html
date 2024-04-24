@@ -1,0 +1,297 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <h1 class="h1-large">
+                «Исследование — это видеть то, что видели все остальные, и думать так, как никто другой». - Альберт Сент-Дьёрдьи
+              </h1>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </header>
+    <!-- end of header -->
+    <!-- end of header -->
+
+    <!-- About-->
+    <div id="about" class="basic-1 bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="text-container first">
+              <h2>Фарход Юлдашев</h2>
+              <p>
+                Имеет 11 научных публикаций общим объемом 49 авторских листов. Женат, имеет 3 детей. В свободное время увлекается гольфом, шахматами, футболом, баскетболом и русским бильярдом.
+              </p>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+          <div class="col-lg-4">
+            <div class="text-container second">
+              <div class="time">2019 - <span>настоящее время</span></div>
+              <h6>Степень магистра
+              </h6>
+              <p>окончил БГТУ им. В.Г. Шухова с отличием</p>
+              <div class="time">2016 - 2018</div>
+              <h6>Степень магистра</h6>
+              <p>окончил БГТУ им. В.Г. Шухова с отличием</p>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+          <div class="col-lg-4">
+            <div class="text-container third">
+              <div class="time">2007</div>
+              <h6>Собственная многопрофильная компания</h6>
+              <p>основой которого является производство строительных материалов</p>
+              <div class="time">1987 - 1992</div>
+              <h6>Степень бакалавра</h6>
+              <p>Ташкентский государственный университет. В.И. Ленин</p>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-1 -->
+    <!-- end of about -->
+
+    <!-- consultancies -->
+    <div class="consultancies bg-white pt-5 pb-3">
+      <div class="container">
+        <div class="consultancies-top">
+          <h2 class="">Личные профили и аккаунты</h2>
+          <div class="line"></div>
+        </div>
+        <div class="consultancies-img mt-5 mb-3">
+          <div class="row align-items-center">
+            <div class="col-lg-3 col-md-3 col-6">
+              <a href="https://scholar.google.com/citations?hl=ru&user=eXVzk_wAAAAJ">
+                <img class="img-fluid" src="{% static 'images/google-scholar.jpg' %}" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+              <a href="https://orcid.org/0009-0000-0434-4159">
+                <img class="img-fluid" src="{% static 'images/orcid.jpg' %}" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- consultancies end -->
+
+    <!-- Read more -->
+    <div class="split d-flex justify-content-center bg-gray py-5">
+      <div class="container d-flex flex-lg-row flex-column">
+        <div class="row">
+          <div class="col-lg-6">
+              <img class="img-fluid" src="{% static 'images/details-background.jpg' %}" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="area-2 bg-gray">
+                <div class="row">
+                  <div class="col-lg-12 pt-5">
+                    <!-- Text Container -->
+                    <div class="text-container pl-lg-0 pl-sm-5 pr-sm-5 book-description">
+                      <h2 class="text-lg-left text-center">Тамерлан Великий<h2>
+                        <p>Яркое повествование о жизни Тамерлана Великого (1336–1405), последнего хозяина кочевой державы,
+                          одного из самых жестоких тиранов в истории и героя пьесы Марло. Мароцци путешествовал по стопам великого
+                          могольского императора Самаркланда, чтобы написать это чудесное сочетание истории и путевых заметок. Имя
+                          последнего великого полководца вызывает в воображении образы тайн и романтики: средневековые войны на пустынных равнинах; звон мечей на заснеженных горах; атака слонов по степям Азии; легендарное богатство и жестокость неграмотного, играющего в шахматы врага Азии. Он считается наряду с Александром одним из величайших завоевателей мира, однако подробности его жизни почти не известны на Западе. Он не родился в знатной семье и не нашел своего</p>
+                        <button
+                        class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right h5"
+                      >
+                        <a
+                          class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                          href="{% static 'book/AmirTemur.pdf' %}"
+                          target="_blank"
+
+                          ><i class="fa-solid fa-download mr-2"></i> <span>Скачать</span></a
+                        >
+                      </button>
+                    </div>
+                    <!-- end of text-container -->
+                    <!-- end of text container -->
+                  </div>
+                  <!-- end of col -->
+                </div>
+                <!-- end of row -->
+              </div>
+          </div>
+        </div>
+        <!-- end of container -->
+      </div>
+      <!-- end of area-2 -->
+    </div>
+    <!-- end of split -->
+    <!-- end of Read more -->
+
+    <!-- Works -->
+    <div class="basic-4 mt-5 mb-5">
+      <div class="container">
+        <div class="patent-title d-flex justify-content-center align-items-center">
+          <h2 class="mx-3">Публикации</h2>
+          <div class="patent-title__border d-flex w-100"></div>
+        </div>
+        <div class="see-more d-flex justify-content-end mb-3">
+          <button class="btn-success border px-5 py-2 rounded font-weight-bolder">
+            <a class="text-white text-decoration-none d-flex align-items-center"
+               href="{% url 'projectsList' %}"><span>Узнать больше</span> <i class="fa-solid fa-arrow-right ml-2 ml-2"></i>
+            </a>
+          </button>
+        </div>
+        <div class="row justify-content-around">
+          {% for project in projects %}
+          <div class="p-2 public-card col-lg-4 col-md-6 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{{ project.image.url }}" alt="" />
+              <div class="p-2 d-flex flex-column justify-content-between h-50">
+                <h6>
+                  {{project.title}}
+                </h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{%url 'project-detail' project.id %}"
+                    target="_blank"
+                    ><span>Читать далее</span> <i class="fa-solid fa-arrow-right ml-2"></i></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-4 -->
+    <!-- end of works -->
+
+
+    <!-- Works -->
+    <div class="basic-4">
+      <div class="container">
+        <div class="patent-title d-flex justify-content-center align-items-center">
+          <div class="patent-title__border d-flex w-100"></div>
+          <h2 class="mx-3">Патенты</h2>
+          <div class="patent-title__border d-flex w-100"></div>
+        </div>
+        <div class="see-more d-flex justify-content-end mb-3">
+          <button class="btn-success border px-5 py-2 rounded font-weight-bolder">
+            <a class="text-white text-decoration-none d-flex align-items-center" href="{% url 'privacyList'%}">
+              <span>Узнать больше</span> <i class="fa-solid fa-arrow-right ml-2 ml-2"></i></a></button>
+        </div>
+        <div class="row justify-content-around">
+          <div class="p-2 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-5.jpg' %}" alt="" />
+              <div class="p-2 d-flex flex-column justify-content-between h-100">
+                <h6>Способ получения дуолита</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Дуолит 1.jpg' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i> <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-6.jpg' %}" alt="" />
+              <div class="p-2 d-flex flex-column justify-content-between h-100">
+                <h6>Наноглина для выращивания растений на пустынных и плодородных почвах и способ ее получения.</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Патент Наноглина.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i> <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-7.jpg' %}" alt="" />
+              <div class="p-2 d-flex flex-column justify-content-between h-100">
+                <h6>Способ получения углещелочного реагента</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Патент УЩР.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i> <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 patent-card col-lg-3 col-md-4 col-sm-6 col-10">
+            <div class="patent-card__inside d-flex flex-column">
+              <img class="w-100 patent-img" src="{% static 'images/work-8.jpg' %}" alt="" />
+              <div class="p-2 d-flex flex-column justify-content-between h-100">
+                <h6>Активная синтезированная добавка для цемента и способ ее получения.</h6>
+                <button
+                  class="btn-success mb-2 border rounded-sm text-white px-4 py-1 float-right"
+                >
+                  <a
+                    class="text-white text-decoration-none d-flex w-100 justify-content-center align-items-center"
+                    href="{% static 'patents/Патент_2733360_Активная_синтезированная_мин_добавка_к_цементу.pdf' %}"
+                    target="_blank"
+                    ><i class="fa-solid fa-download mr-2"></i> <span>Скачать</span></a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-4 -->
+    <!-- end of works -->
+
+    <!-- Section Divider -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <hr class="section-divider" />
+        </div>
+        <!-- end of col -->
+      </div>
+      <!-- end of row -->
+    </div>
+    <!-- end of container -->
+    <!-- end of section divider -->
+
+{% endblock content %}
